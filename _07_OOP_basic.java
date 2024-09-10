@@ -31,22 +31,22 @@ class OOPbasic {
      * - protected: same package, subclass(inside or outside the package)
      * - private: same class
      * - default: within the package
-     * | public | protected | default | private
-     * same class | yes | yes | yes | yes
+     *              | public | protected | default | private
+     * same class   |  yes   |   yes     |   yes   | yes
      * ----------------------------------------------------
-     * same package| yes | yes | yes | no
-     * subclass | | | |
+     * same package |  yes   |   yes     |   yes   | no
+     * subclass     |        |           |         |
      * ----------------------------------------------------
-     * same package| yes | yes | yes | no
-     * non-subclass| | | |
+     * same package |  yes   |   yes     |   yes   | no
+     * non-subclass |        |           |         |
      * ----------------------------------------------------
-     * different | | | |
-     * pagkage | yes | yes | no | no
-     * subclass | | | |
+     * different    |        |           |         |
+     * pagkage      |  yes   |   yes     |    no   | no
+     * subclass     |        |           |         |
      * ----------------------------------------------------
-     * different | | | |
-     * pagkage | yes | no | no | no
-     * non-subclass| | | |
+     * different    |        |           |         |
+     * pagkage      |  yes   |    no     |    no   | no
+     * non-subclass |        |           |         |
      */
     public void publicHelloWorld() { // public
         System.out.println("(public) Hello world!");
