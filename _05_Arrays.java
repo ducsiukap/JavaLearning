@@ -24,7 +24,7 @@ public class _05_Arrays {
          * - arrayName hold array's location in memory
          * ex: a = 0x0032 ([])
          * then b = a -> b = 0x0032 ([])
-         * -> any change in b will be effected in a[]
+         * -> any change in b[] will be effected to a[]
          * ex:
          */
         System.out.println("\n");
