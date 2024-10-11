@@ -44,7 +44,7 @@ class Student {
 
 public class _11_OOP_Encapsulation{
     public static void main(String[] args) {
-        Student s = new Student(); // creating new student 
+        Student s = new Student(); // creating new student
         s.setName("ducsjukap"); // accessing to s.name
         s.setID("B22DCCNXXX"); // accessing to s.ID
         s.setAge(20); // accessing to s.age

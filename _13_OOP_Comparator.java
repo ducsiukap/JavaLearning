@@ -24,7 +24,7 @@ class Time {
 // syntax: class ClassNameComparator implements Comparator<ClassName> {}
 class TimeComparator implements Comparator<Time> {
     @Override
-    public int compare(Time t1, Time t2) { 
+    public int compare(Time t1, Time t2) {
         return Long.compare(t1.getTotalSecond(), t2.getTotalSecond()); 
     }
 }
